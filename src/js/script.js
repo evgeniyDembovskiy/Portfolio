@@ -15,3 +15,9 @@ menu.addEventListener("click", (e) => {
         menu.classList.remove("active");
     }
 });
+
+const percents = document.querySelectorAll(".progress-item__percent");
+const levels = document.querySelectorAll(".progress-item__level");
+percents.forEach((item, i) => {
+    levels[i].style.width = item.innerHTML;
+});
