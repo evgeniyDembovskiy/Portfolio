@@ -20,7 +20,10 @@
         background-color: $main-color;
         img {
             transition: all .4s;
+            height: 100%;
             width: 100%;
+            object-fit: cover;
+
             &:hover {
                 transform: translate(-6px, -6px);
             }

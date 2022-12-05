@@ -21,6 +21,7 @@
         @include before_circle;
     }
     &__descr {
+        grid-column: 2/3;
         padding-top: 6px;
         .divider {
             margin: 0;
